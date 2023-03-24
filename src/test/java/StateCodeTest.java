@@ -11,7 +11,7 @@ public class StateCodeTest {
     private  static final String CSV_PATH_INCORRECT="D:\\IndianStatestateAnalyser\\src\\main\\resources\\IndianStateCode.csv";
     private  static final String CSV_FILE_TYPE_INCORRECT="D:\\BridgeLabzz\\IndianStatestateAnalyser\\src\\main\\resources\\IndianStateCode.txt";
     private  static final String CSV_PATH_DELIMITER="D:\\BridgeLabzz\\IndianStatestateAnalyser\\src\\main//resources\\IndianStateCode.csv";
-    private  static final String CSV_PATH_HEADER="D:\\BridgeLabzz\\IndianStatestateAnalyser\\src\\main\\resources\\IndianStateCodeHeader.csv";
+    private  static final String CSV_PATH_HEADER="D:\\BridgeLabzz\\IndianStateCensusAnalyser\\src\\main\\resources\\IndianStateCodeHeader.csv";
 
 
     @Test

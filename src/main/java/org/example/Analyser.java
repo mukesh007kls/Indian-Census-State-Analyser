@@ -31,10 +31,7 @@ public class Analyser {
         }catch (IOException exception){
             throw new AnalyserExceptions(exception.getMessage(),AnalyserExceptions.ExceptionType.FILE_PROBLEM);
         }catch (RuntimeException exception){
-            if(!csvPath.contains("IndianStateCode.csv"))
-                throw new AnalyserExceptions(exception.getMessage(), AnalyserExceptions.ExceptionType.INCORRECT_HEADER);
-            else
-                throw new AnalyserExceptions(exception.getMessage(), AnalyserExceptions.ExceptionType.INCORRECT_DELIMITER);
+            throw new AnalyserExceptions(exception.getMessage(), AnalyserExceptions.ExceptionType.INCORRECT_HEADER);
         }
     }
 }
